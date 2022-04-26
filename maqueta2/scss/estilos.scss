@@ -1,0 +1,84 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../libs/bootstrap/scss/bootstrap";
+@import "otros/mixins";
+
+// Then add additional custom code here
+
+*{
+    box-sizing: border-box;
+}
+#obj1{
+    background-color: $color-obj1;
+    @include caja(1);
+}
+#obj1 span{
+    @include titulo;
+}
+#obj2{
+    background-color: $color-obj2;
+    @include caja(2);
+}
+#obj2 span{
+    @include titulo;
+}
+#obj3{
+    background-color: $color-obj3;
+    @include caja(2);
+}
+#obj3 span{
+    @include titulo;
+}
+#obj4{
+    background-color: aqua;
+}
+@include media-breakpoint-up (sm) {
+    #obj1{
+        background-color: $color-obj1-sm;
+    }
+}
+@include media-breakpoint-up (md){
+    #obj1{
+        background-color: $color-obj1;
+        @include caja (1);
+    }
+}
+@include media-breakpoint-up(sm){
+    #pepo1{
+        background-color: $color-sm1;
+    }
+    #pepo2{
+        background-color:$color-sm2;
+    }
+    #pepo3{
+        background-color: $color-sm3;
+    }
+}
+
+@include media-breakpoint-up(md){
+    #pepo1{
+        background-color: $color-md1;
+    }
+    #pepo2{
+        background-color:$color-md2;
+    }
+    #pepo3{
+        background-color: $color-md3;
+    }
+}
+
+@include media-breakpoint-up(lg){
+    #pepo1{
+        background-color: $color-col1;
+    }
+    #pepo2{
+        background-color:$color-col2;
+    }
+    #pepo3{
+        background-color: $color-col3;
+    }
+}

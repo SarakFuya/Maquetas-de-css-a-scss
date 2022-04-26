@@ -1,0 +1,36 @@
+#header{
+    background-color: rgb(22, 231, 22);
+    border: 0; color:black;
+    height: 100px;
+    text-align: center;
+}
+#obj1{
+    background-color: rgb(230, 255, 9);
+    border:0;color:black;
+    height: 320px;
+    text-align: center;
+}
+#obj4{
+    background-color: rgb(52, 133, 66);
+    border: 2px; color: black;
+    float: right;
+    text-align: center;
+}
+#obj2{
+    background-color: rgb(235, 131, 12);
+    border: 0 ; color:black;
+    height: 100px;
+    text-align: center;
+}
+#obj3{
+    background-color: rgb(250, 107, 12);
+    border: 0; color: black;
+    height: 100px;
+    text-align: center;
+}
+#footer{
+    background-color: rgb(160, 149, 56);
+    border: 0; color: black;
+    height: 100px;
+    text-align: center;
+}

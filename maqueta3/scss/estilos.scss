@@ -1,0 +1,49 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../libs/bootstrap/scss/bootstrap";
+@import "otros/mixin.scss";
+
+// Then add additional custom code here
+
+
+#header{
+    background-color: rgb(22, 231, 22);
+    border: 0; color:black;
+    height: 100px;
+    text-align: center;
+}
+#pepe1{
+    background-color: rgb(230, 255, 9);
+    border:0;color:black;
+    height: 320px;
+    text-align: center;
+}
+#pepe4{
+    background-color: rgb(52, 133, 66);
+    border: 2px; color: black;
+    float: right;
+    text-align: center;
+}
+#pepe2{
+    background-color: rgb(235, 131, 12);
+    border: 0 ; color:black;
+    height: 100px;
+    text-align: center;
+}
+#pepe3{
+    background-color: rgb(250, 107, 12);
+    border: 0; color: black;
+    height: 100px;
+    text-align: center;
+}
+#footer{
+    background-color: rgb(160, 149, 56);
+    border: 0; color: black;
+    height: 100px;
+    text-align: center;
+}
+

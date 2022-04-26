@@ -1,0 +1,28 @@
+#header{
+    background-color: rgb(16, 180, 25);
+    border: 2px; color: rgb(0, 0, 0);
+}
+#obj1{
+    background-color: rgb(255, 0, 0);
+    border: 2px; color:rgb(0, 0, 0);
+    height: 150px;
+}
+#obj2{
+    background-color: rgb(255, 0, 0);
+    border: 2px; color: rgb(3, 3, 3);
+    height: 150px;
+}
+#obj3{
+    background-color: rgb(255, 0, 0);
+    border: 2px; color: black;
+    height: 150px;
+    
+}
+#footer1{
+    background-color: rgb(229, 255, 0);
+    border: 0; color: rgb(0, 0, 0);
+}
+#footer2{
+    background-color: rgb(255, 251, 0);
+    border: 0; color: rgb(0, 0, 0);
+}

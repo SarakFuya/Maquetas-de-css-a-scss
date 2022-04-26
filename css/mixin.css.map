@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../maqueta3/scss/otros/mixin.scss"
+    ],
+    "names": [],
+    "file": "mixin.css"
+}

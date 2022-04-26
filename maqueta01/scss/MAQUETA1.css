@@ -1,0 +1,16 @@
+#pilar_1{
+    background-color: blue;
+    border: 2px; color: blueviolet;
+
+}
+#pilar_2{
+    background-color: aqua;
+    border: 2px; color: chartreuse;
+}
+#pilar_3{
+    background-color: chocolate;
+    border: 2px; color: crimson;
+}
+.color{
+    color: black;
+}

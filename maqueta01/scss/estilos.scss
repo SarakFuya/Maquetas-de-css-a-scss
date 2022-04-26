@@ -1,0 +1,48 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../libs/bootstrap/scss/bootstrap";
+@import "otros/mixins.scss";
+// Then add additional custom code here
+
+*{
+    box-sizing: border-box;
+}
+#pilar_1{
+    background-color: $color-pilar1;
+    @include caja(1);
+}
+#pilar_1 span{
+    @include titulo;
+}
+#pilar_2{
+    background-color: $color-pilar2;
+    @include caja(2);
+}
+#pilar_2 span{
+    @include titulo;
+}
+#pilar_3{
+    background-color: $color-pilar3;
+    @include caja(2);
+}
+#pilar_3 span{
+    @include titulo;
+}
+#pilar_4{
+    background-color: aqua;
+}
+@include media-breakpoint-up (sm) {
+    #pilar_1{
+        background-color: $color-pilar1-sm;
+    }
+}
+@include media-breakpoint-up (md){
+    #pilar_1{
+        background-color: $color-pilar1;
+        @include caja (1);
+    }
+}
