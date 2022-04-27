@@ -3,11 +3,11 @@ Este repositorio contiene maquetas realizadas en html compiladas a scss
 ## proposito del proyecto
 Este proyceto fue elaborado con un lenguaje de programacion llamado HTML que a su vez fue implemantado y compilado a scss para agregarle un diseño a las paginas
 
->Este proyecto fue elaborado por: Sara Katherin Fuya Caceres
+>Este proyecto fue elaborado por: **Sara Katherin Fuya Caceres**
 
->Ficha de titulacion sena: 2470980
+>Ficha de titulacion sena: **2470980**
 
->Programa de formacion: **Analisis y desarrollo del softwar
+>Programa de formacion: **Analisis y desarrollo del softwar**
 
 **_A continuacion podra evidenciar 6 maquetas elaboradas en la herramienta visual studio code implementando HTML 5 con sus correspondientes SCSS_**
 
